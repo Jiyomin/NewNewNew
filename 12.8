@@ -1,7 +1,10 @@
 1.WebServer (nanix,apache,resin,tomcat,weblogic)
 
 DNS解析：（1）配置httpd.conf 虚拟目录配置 www.a.com 127.0.0.1
-            (2)hosts文件 /etc/hosts
+            (2)hosts文件 /etc/hosts     c:windows\system32\drivers\sec
+               smarthosts
+
+               GET/POST---刷新当前页面
 数据包（包头 、包体） 包头（请求头、响应头）get\post
 80--> http httpd.conf(虚拟主机) 对应一个发布目录
 443--> https ssl
@@ -12,3 +15,20 @@ linux
 
 Apache配置
 1.发布目录 htdocs
+
+
+
+
+
+
+
+
+
+get提交：数据显示在url上的   http://v.youku.com/sdjflkjfslk  不安全
+post提交
+
+
+三码一致
+文件编码 ANSI unicode utf-8
+浏览器编码 GBK GB2312 GB18030 UTF-8
+数据库编码 UTF-8 setEncoding(UTF8)
